@@ -1,0 +1,130 @@
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    padding: 0px 10px;
+    background: rgba(0, 0, 0, 0.1);
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+nav .logo{
+    padding: 22px 10px;
+    height: 80px;
+    float: left;
+    font-size: 20px;
+    color: white;
+
+}
+nav ul{
+    float: right; 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li a{
+line-height: 80px;
+color: white;
+ padding: 0px 30px 0px 50px; 
+text-decoration: none;
+
+}
+section{
+    width: 100%;
+    height: 100vh;
+    background: url("./abc.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 40px 120px 40px 250px ;
+}
+.grid-item{
+    width: 400px;
+    height: 280px;
+   padding-top: 30px;
+   padding-left: 50px;
+   padding-right: 20px;
+   text-align: justify;
+
+}
+#card-one{
+    background-color: #f2d130;
+    font-size:larger;
+    
+    
+}
+.btn-one{
+    background-color: white;
+    border: none;
+    box-shadow: 2px 2px 3px grey;
+}
+.btn{
+    border: none;
+    background-color: #f2d130;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 2px 2px 3px grey;
+
+
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+
+  .column {
+    margin-left: 30px;
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 100px; 
+  }
+ .row{
+     justify-content: center;
+     margin-bottom: 3%;
+ }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .columnn{
+
+     display: flex;
+     width:20%;
+     height: 300px;
+      padding-left: 10px;
+      justify-content: center;
+      text-align: justify;
+      margin-left:50px ;
+  }
+ div i{
+     font-size: 30px;
+     margin-top: 10px;
+     margin-right: 10px;
+ }
+.btn-two{
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #f2d130;
+    font-size: 20px;
+}
+
